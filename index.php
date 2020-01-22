@@ -8,11 +8,11 @@
         <link rel="icon" href="img/globe-2x.png">
         <link rel="stylesheet" href="CSS/styles.css">           
         <link rel="stylesheet" href="CSS/dictionary.css">           
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <link href="CSS/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/font-awesome.min.css">
+        <script src="JS/jquery-1.12.4.js"></script>
+        <script src="JS/jquery-ui.js"></script>
+        <script src="JS//bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="JS/loadAjax.js"></script>
     </head>
 <body >
@@ -60,14 +60,14 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="tab2primary">
-                                <div class="col-md-6">
+                                <div class="col-md-6 mobile-translate">
                                     <textarea rows="10" class="col-md-12 textarea-padding-10" name="word" id="word" placeholder="Nội dung cần dịch"></textarea>  
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-6 mobile-translate padding-top-10-target">
                                     <textarea rows="10" class="col-md-12 textarea-padding-10" id="result-target"></textarea>
                                 </div>
-                                <div class="col-md-6 div-translate">
+                                <div class="col-md-6 div-translate mobile-translate">
                                     <div class="col-md-4 select-source">
                                         <select name="source" id="source" class="form-control">
                                             <option selected value="en">English</option>

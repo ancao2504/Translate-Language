@@ -290,3 +290,42 @@
     color: #fff;
     border-radius: 5px;
 }
+.button-search-word span {
+    margin-right: 10px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+    .page-header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .select-dictionary-parent, .button-search-word {
+        margin-top: 10px;
+    }
+    .panel-heading .nav-tabs li {
+        padding: 10px;
+    }
+    .textarea-padding-10 {
+        width: 100%;
+    }
+    #tab2primary .mobile-translate {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .padding-top-10-target {
+        padding-top: 10px;
+    }
+    .div-translate .swap-button {
+        text-align: center;
+        padding: 0px;
+    }
+    .button-translate {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #myBtn {
+        display: none;
+    }
+}
